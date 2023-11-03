@@ -2,6 +2,6 @@
 if __name__ == "__main__":
     import sys, math
     result = 0
-    for i in range(len(sys.argv) - 1):
-        result += int(sys.argv[i + 1])
+    args = sys.argv[1:]:
+        result += sim(int(arg)for arg in args)
         print("{}".format(result))
