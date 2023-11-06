@@ -2,6 +2,6 @@
 def no_c(my_string):
     breezy = ""
     for i in my_string:
-        if (my_string[i] != 'c' and my_string[i] != 'C'):
-            breezy += my_string[i]
+        if i != 'c' and i != 'C':
+            breezy += i
     return breezy
