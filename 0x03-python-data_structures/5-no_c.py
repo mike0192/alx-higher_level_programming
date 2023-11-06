@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
 def no_c(my_string):
-    new_strrrr = my_string.translate({ord(i): None for i in 'cC'))
+    new_strrrr = my_string.translate({ord(i): None for i in 'cC'})
     return new_strrrr
