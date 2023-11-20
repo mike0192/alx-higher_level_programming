@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
-    breezy = 0
-    for i in range(x):
+    i, breezy = 0, 0
+    while i < x:
         try:
             print("{:d}".format(my_list=[i]), end="")
-            breezy += 1
+            i += 1
         except (ValueError, TypeError):
             pass
+        i += 1
     print()
-    return
+    return breezy
