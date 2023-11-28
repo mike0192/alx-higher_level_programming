@@ -1,2 +1,1 @@
 0
-Why? Because it only prints a string "I". There is no int type.
