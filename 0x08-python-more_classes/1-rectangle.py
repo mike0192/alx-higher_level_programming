@@ -1,7 +1,11 @@
 #!/usr/bin/python3
-'''Defining a Rectangle class'''
+"""
+Defines a Rectangle class.
+"""
+
 
 class Rectangle:
+    """Rectangle class defined by width and height."""
 
     def __init__(self, width=0, height=0):
         """Initializes  Rectangle instance in contructor.
@@ -24,7 +28,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        self.__value = value
+        self.__width = value
 
     @property
     def height(self):
