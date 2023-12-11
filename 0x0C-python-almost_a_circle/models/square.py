@@ -12,7 +12,7 @@ class Square(Rectangle):
     def __init__(self, size, x=0, y=0, id=None):
         """Initialization class props in constructor
         """
-        super().__init__(size, size, x, y, id)
+        super().__init__(size, size, x, y, id=id)
 
     @property
     def size(self):
